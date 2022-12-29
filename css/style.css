@@ -29,17 +29,22 @@ ul{
 li{
   width: 94px;
   height: 65px;
+  text-align: center;
+  color:red;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
+#chicago{
+  background-image: url(/img/chicago.jpg);
+  background-size: 100px;
 }
-#green{
-  background: rgba(0,253,81,1);
+#newYork{
+  background-image: url(/img/new\ york.jpg);
+  background-size: 100px;
 }
-#blue{
-  background: rgba(0,254,255);
+#LA{
+  background-image: url(/img/LA.jpg);
+  background-size: 80px;
 }

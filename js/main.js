@@ -1,19 +1,26 @@
-document.getElementById('purple').onclick = partyPurple
-document.getElementById('green').onclick = partyGreen
-document.getElementById('blue').onclick = partyBlue
+/* find the id and get the click for the 3 colors
+create 3 functions for the 3 colors
+inside the function get the body style the background
+and get the body and style the text */
 
+document.getElementById('chicago').onclick = chicagoBack;
+document.getElementById('newYork').onclick = newyorkBack;
+document.getElementById('LA').onclick = laBack;
 
-function partyPurple() {
-  document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)'
-  document.querySelector('body').style.color = 'white'
+function chicagoBack() {
+  document.querySelector('body').style.backgroundImage = 'url(/img/chicago.jpg)';
+  document.querySelector('body').style.backgroundSize = 'cover';
+  document.querySelector('body').style.color = 'red';
 }
 
-function partyGreen() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
-  document.querySelector('body').style.color = 'white'
+function newyorkBack() {
+  document.querySelector('body').style.backgroundImage = 'url(/img/newyork.jpg)';
+  document.querySelector('body').style.backgroundSize = '600px';
+  document.querySelector('body').style.color = 'red';
 }
 
-function partyBlue() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
-  document.querySelector('body').style.color = 'white'
+function laBack() {
+  document.querySelector('body').style.backgroundImage = 'url(/img/LA.jpg)';
+  document.querySelector('body').style.backgroundSize = '600px';
+  document.querySelector('body').style.color = 'red';
 }
